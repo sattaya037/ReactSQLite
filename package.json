@@ -1,0 +1,37 @@
+{
+  "name": "TestSqlite",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.23",
+    "native-base": "^2.11.0",
+    "react": "16.6.3",
+    "react-moment": "^0.8.4",
+    "react-native": "0.57.8",
+    "react-native-dialog-input": "^1.0.7",
+    "react-native-gesture-handler": "^1.0.12",
+    "react-native-image-picker": "^0.28.0",
+    "react-native-refreshable-listview": "^2.0.0-beta4",
+    "react-native-refresher": "^0.1.1",
+    "react-native-sqlite-storage": "^3.3.9",
+    "react-navigation": "^3.0.9",
+    "react-redux": "^6.0.1",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "rn-fetch-blob": "^0.10.15"
+  },
+  "devDependencies": {
+    "babel-jest": "23.6.0",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.51.1",
+    "react-test-renderer": "16.6.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
