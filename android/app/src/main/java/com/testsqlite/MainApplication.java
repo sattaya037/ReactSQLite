@@ -3,6 +3,8 @@ package com.testsqlite;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.airbnb.android.react.maps.MapsPackage;
+import com.oblador.vectoricons.VectorIconsPackage;
 import com.RNFetchBlob.RNFetchBlobPackage;
 import com.imagepicker.ImagePickerPackage;
 import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
@@ -29,6 +31,8 @@ public class MainApplication extends Application implements ReactApplication {
       return Arrays.<ReactPackage>asList(
         new SQLitePluginPackage(),   // register SQLite Plugin here
           new MainReactPackage(),
+            new MapsPackage(),
+            new VectorIconsPackage(),
             new RNFetchBlobPackage(),
             new ImagePickerPackage(),
             new RNGestureHandlerPackage()
